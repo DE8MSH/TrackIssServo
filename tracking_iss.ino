@@ -26,7 +26,7 @@ void setup () {
   Serial.begin(38400);
   setTime((1451677583));
 
-  p13.setFrequency(137100000, 137100000)
+  p13.setFrequency(137100000, 137100000);
   p13.setLocation(8.8, 53.0, 8);
   pinMode(A0, OUTPUT);
   digitalWrite(A0, LOW);
